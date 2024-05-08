@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+<record id="s_cover_default_image" model="theme.ir.attachment">
+    <field name="key">website.s_cover_default_image</field>
+    <field name="name">website.s_cover_default_image</field>
+    <field name="url">/theme_iceage/static/src/img/snippets/s_cover.jpg</field>
+</record>
+<record id="s_picture_default_image" model="theme.ir.attachment">
+    <field name="key">website.s_picture_default_image</field>
+    <field name="name">website.s_picture_default_image</field>
+    <field name="url">/theme_iceage/static/src/img/snippets/s_picture.jpg</field>
+</record>
+<record id="s_masonry_block_default_image_1" model="theme.ir.attachment">
+    <field name="key">website.s_masonry_block_default_image_1</field>
+    <field name="name">website.s_masonry_block_default_image_1</field>
+    <field name="url">/theme_iceage/static/src/img/snippets/s_masonry_block.jpg</field>
+</record>
+
+<record id="s_media_list_default_image_1" model="theme.ir.attachment">
+    <field name="key">website.s_media_list_default_image_1</field>
+    <field name="name">website.s_media_list_default_image_1</field>
+    <field name="url">/theme_iceage/static/src/img/snippets/s_media_list_1.jpg</field>
+</record>
+<record id="s_media_list_default_image_2" model="theme.ir.attachment">
+    <field name="key">website.s_media_list_default_image_2</field>
+    <field name="name">website.s_media_list_default_image_2</field>
+    <field name="url">/theme_iceage/static/src/img/snippets/s_media_list_2.jpg</field>
+</record>
+<record id="s_media_list_default_image_3" model="theme.ir.attachment">
+    <field name="key">website.s_media_list_default_image_3</field>
+    <field name="name">website.s_media_list_default_image_3</field>
+    <field name="url">/theme_iceage/static/src/img/snippets/s_media_list_3.jpg</field>
+</record>
+</odoo>

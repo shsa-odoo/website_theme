@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+<record id="theme_iceage.primary_variables_scss" model="theme.ir.asset">
+    <field name="key">theme_iceage.primary_variables_scss</field>
+    <field name="name">Primary variables SCSS</field>
+    <field name="bundle">web._assets_primary_variables</field>
+    <field name="path">theme_iceage/static/src/scss/primary_variables.scss</field>
+</record>
+
+<record id="theme_iceage.compatibility_saas_11_4_variables_scss" model="theme.ir.asset">
+    <field name="key">theme_iceage.compatibility_saas_11_4_variables_scss</field>
+    <field name="name">Compatibility saas 11 4 variables SCSS</field>
+    <field name="bundle">web._assets_primary_variables</field>
+    <field name="path">/theme_iceage/static/src/scss/compatibility-saas-11.4-variables.scss</field>
+    <field name="active" eval="False"/>
+</record>
+
+<record id="theme_iceage.bootstrap_overridden_scss" model="theme.ir.asset">
+    <field name="key">theme_iceage.bootstrap_overridden_scss</field>
+    <field name="name">Bootstrap overridden SCSS</field>
+    <field name="bundle">web._assets_frontend_helpers</field>
+    <field name="directive">prepend</field>
+    <field name="path">theme_iceage/static/src/scss/bootstrap_overridden.scss</field>
+</record>
+
+</odoo>
+
+<!-- 
+    
+This XML code is used in Odoo to define assets for a theme named "theme_iceage".
+Here's a step-by-step explanation of what the code does:
+
+The <odoo> tag is the root element of the XML file.
+All other tags must be enclosed within this tag.
+
+The <record> tags are used to create or update records in a model.
+In this case, the model is theme.ir.asset.
+
+Each <record> tag has an id attribute, which is a unique identifier for the record.
+
+The <field> tags within each <record> tag are used to set the values of fields in the record.
+The name attribute of the <field> tag is the name of the field,
+and the text content of the <field> tag is the value of the field.
+
+In summary, this code is creating or updating three records in the theme.ir.asset model.
+These records represent assets for the "theme_iceage" theme.
+The assets are SCSS files that are used to style the theme.
+The bundle field specifies which asset bundle the asset belongs to,
+the path field specifies the location of the SCSS file,
+and the active field specifies whether the asset is active.
+The directive field in the second record specifies that this asset should be prepended to the bundle.
+
+ -->

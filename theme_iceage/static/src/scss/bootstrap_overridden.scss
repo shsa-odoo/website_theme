@@ -1,0 +1,15 @@
+
+// Typography
+//
+// Font, line-height, and color for body text, headings, and more.
+
+$headings-font-weight: $o-theme-headings-font-weight !default;
+
+
+/*
+The `bootstrap_overridden.scss` file is typically used to override default Bootstrap variables.
+This allows you to customize the look and feel of Bootstrap components without modifying
+the Bootstrap source code. By doing this in a separate file,
+you can keep your customizations organized and maintain the ability
+to update Bootstrap without losing your changes.
+*/

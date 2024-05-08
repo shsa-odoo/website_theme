@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- ======== COVER ======== -->
+    <template id="s_cover" inherit_id="website.s_cover" name="Iceage s_cover">
+        <xpath expr="section" position="attributes">
+            <attribute name="class" remove="pt96 pb96" add="o_full_screen_height pt0 pb256" separator=" "/>
+        </xpath>
+        <xpath expr="//h1" position="replace" mode="inner">
+            The Prime Mountain
+        </xpath>
+        <xpath expr="//p" position="replace" mode="inner">
+            Feel it all. The ice, the snow, the wind, the cold. The prime mountain is waiting for you.
+        </xpath>
+        <xpath expr="//a[hasclass('btn')]/t" position="replace" mode="inner">
+            Start exploring
+        </xpath>
+    </template>
+    
+    <!-- ======== MASONRY BLOCK ======== -->
+    <template id="s_masonry_block" inherit_id="website.s_masonry_block">
+        <xpath expr="//t[@t-call]" position="attributes">
+            <attribute name="t-call">website.s_masonry_block_image_texts_image_template</attribute>
+        </xpath>
+        <xpath expr="//section" position="attributes">
+            <attribute name="data-masonry-template">image_text_image</attribute>
+        </xpath>
+    </template>
+    
+    <!-- Snippet customization Landing Pages -->
+    <template id="new_page_template_landing_s_text_image" inherit_id="website.new_page_template_landing_s_text_image">
+        <xpath expr="//section" position="attributes">
+            <!-- pt56 is defined in both theme and new page template -->
+            <attribute name="class" add="pt56" remove="pt56 pb24" separator=" "/>
+        </xpath>
+    </template>
+</odoo>
